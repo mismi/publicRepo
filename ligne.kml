@@ -2,9 +2,9 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Calque sans titre</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-DB4436-nodesc-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -18,9 +18,9 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-DB4436-nodesc-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -34,47 +34,75 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-DB4436-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-000000-1200-nodesc-normal">
+    <Style id="line-000000-1969-nodesc-normal">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.2</width>
+        <width>1.969</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-000000-1200-nodesc-highlight">
+    <Style id="line-000000-1969-nodesc-highlight">
       <LineStyle>
         <color>ff000000</color>
-        <width>1.8</width>
+        <width>2.9535</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-000000-1200-nodesc">
+    <StyleMap id="line-000000-1969-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+        <styleUrl>#line-000000-1969-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+        <styleUrl>#line-000000-1969-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-2744-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Port Olonna</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
           -1.7959582,46.5017707,0
@@ -83,7 +111,7 @@
     </Placemark>
     <Placemark>
       <name>Quaie Guinée</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
           -1.7947747,46.4960946,0
@@ -91,8 +119,8 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Point 3</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>Quai George V</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
           -1.7962289,46.4967056,0
@@ -101,7 +129,7 @@
     </Placemark>
     <Placemark>
       <name>Ligne A</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-000000-1969-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -115,7 +143,7 @@
     </Placemark>
     <Placemark>
       <name>Ligne B</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-000000-1969-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -131,7 +159,7 @@
     </Placemark>
     <Placemark>
       <name>Ancienne sous préfecture</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
           -1.794542,46.4920872,0
@@ -140,7 +168,7 @@
     </Placemark>
     <Placemark>
       <name>Base de mer</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
           -1.7934369,46.4928849,0
@@ -149,7 +177,7 @@
     </Placemark>
     <Placemark>
       <name>Ligne C</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-000000-2744-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
